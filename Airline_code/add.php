@@ -1,9 +1,7 @@
 <?php
 
 if(isset($_POST["Submit"])){
-
     include('connection.php');
-
     $usrid = $_POST["uid"];
     $fname = $_POST["frname"];
     $lname = $_POST["ltname"];
@@ -23,6 +21,4 @@ if ($con->query($sql) === TRUE) {
 else{
     echo "Error: ";
 }
-
-
 ?>
