@@ -30,12 +30,12 @@
     <input type="text", name = "ltname">
     </div>
 
-    <div>Select Departure City</div>
+    <div>Select Your Departure City</div>
     <div style="text-align:left">
     <input type="text", name = "dcity">
     </div>
 
-    <div>Select Arrival City</div>
+    <div>Select Your Arrival City</div>
     <div style="text-align:left">
     <input type="text", name = "acity">
     </div>
