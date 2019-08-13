@@ -8,7 +8,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Display Details</title>
+    <title>Display All Details</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
     <script src="main.js"></script>
@@ -21,7 +21,7 @@
 
     <form action = "displayall.php" method="post">
     <br><br>
-    <div>User NIC </div>
+    <div>User NIC </div>    
     <div style="text-align:left">
     <input type="text", name="uid">
     </div>
@@ -33,10 +33,7 @@
     <div class="w3-card-4 w3-margin w3-white">
     <img src="air1.jpg" alt="Nature" style="width:100%">
     <div class="w3-container">
-
     <div>
-    
-
     </form>
 </body>
 </html>
