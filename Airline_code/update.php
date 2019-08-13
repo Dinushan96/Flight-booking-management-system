@@ -1,8 +1,5 @@
 <?php
-
-
 if(isset($_POST["Submit"])){
-
     include('connection.php');
     $usrid = $_POST["uid"];
     $fname = $_POST["frname"];
@@ -22,6 +19,4 @@ if(isset($_POST["Submit"])){
 else{
     echo "Error: ";
 }
-
-
 ?>
